@@ -1,0 +1,152 @@
+body{
+  background-color: #1E1E24 !important;
+  margin-top:5% !important;
+   -webkit-user-select: none;        
+-moz-user-select: none; 
+-ms-user-select: none;
+}
+
+.buttons{
+  width:210px;
+  margin:auto;
+}
+#start{
+  color:white;
+  font-size:3em;
+}
+
+#value{
+    text-align: center;
+	  padding: 10px;
+    cursor: default;
+}
+
+#plus{
+  border: 1px #FFFFFF solid;
+  text-align: center;
+	padding: 10px;
+  border-right: 0;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition:0.3s;
+}
+
+#minus{
+    border: 1px #FFFFFF solid;
+    text-align: center;
+    margin-left:-4px;
+	  padding: 10px;
+    border-left: 0;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    transition:0.3s;
+}
+.theme{
+  color:white;
+  border: 1px #FFFFFF solid;
+}
+.result{
+  margin-top:-12px;
+  color:white;
+  font-size:1.6em;
+  font-family: 'Slabo 27px', serif;
+}
+.level{
+  width:40px;
+  height:40px;
+  margin:auto;
+  margin-top:15px;
+  color:white;
+  font-size:1.6em;
+  font-family: 'Slabo 27px', serif;
+}
+#red:active{
+  background-color:red !important;
+} 
+#blue:active{
+  background-color:blue !important;
+} 
+#green:active{
+  background-color:green !important;
+} 
+#yellow:active{
+  background-color:yellow !important;
+}  
+#red{
+  margin-left:2.25px;
+  background-color:#EF5350;
+  border-top-left-radius:50%;
+} 
+#blue{
+  background-color:#2196F3; 
+  border-top-right-radius:50%;
+} 
+#green{
+  margin-top:4px;
+  background-color:#4CAF50;
+  border-bottom-left-radius:50%;
+} 
+#yellow{
+  margin-top:4px;
+  background-color:#FFF176;
+  border-bottom-right-radius:50%;
+} 
+button[disabled]{
+    opacity:1 !important;
+}
+button{
+  height:100px;
+  width:100px;
+}
+button:focus {
+    outline: none !important;
+}
+.onoffswitch {
+  margin:auto;
+  margin-bottom:30px;
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #FFFFFF; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    -webkit-transition: margin 0.3s ease-in 0s;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "EASY";
+    background-color: transparent; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "HARD";
+    padding-right: 10px;
+    background-color: transparent; color: #FFFFFF;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    -webkit-transition: all 0.3s ease-in 0s;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
